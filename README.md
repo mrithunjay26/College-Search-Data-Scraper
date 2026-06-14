@@ -44,8 +44,8 @@ The generated CSV includes college name, URL, admissions fields, academic fields
 
 ## Responsible use
 
-This project is intended as a learning and portfolio example. Before running a scraper against any public site, review the site's terms, respect rate limits, and avoid collecting private or restricted data.
+This project is intended as a learning and data-pipeline example. Before running a scraper against any public site, review the site's terms, respect rate limits, and avoid collecting private or restricted data.
 
-## Reviewer notes
+## Implementation notes
 
 The most relevant engineering signal is the pipeline shape: browser automation for dynamic discovery, lightweight HTTP parsing for detail pages, and a consistent CSV output that can feed search, ranking, or analytics features.
